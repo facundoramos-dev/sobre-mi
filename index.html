@@ -1,0 +1,104 @@
+<!-- Definición del tipo de documento como HTML5 -->
+<!DOCTYPE html>
+<!-- Inicio del documento HTML, con el atributo lang especificando el idioma como español -->
+<html lang="es">
+<!-- Encabezado del documento, donde se incluyen metadatos y enlaces a recursos externos -->
+
+<head>
+  <!-- Especifica la codificación de caracteres como UTF-8 para admitir caracteres especiales como la ñ -->
+  <meta charset="UTF-8" />
+  <!-- Configura la escala inicial y ajusta el contenido al ancho del dispositivo para diseño responsivo -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Enlaza una hoja de estilos externa llamada "style.css" ubicada en la carpeta "assets/css" -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Título de la página que se mostrará en la pestaña del navegador -->
+  <title>Sobre mi</title>
+</head>
+
+<!-- Cuerpo del documento HTML, donde se coloca el contenido visible de la página -->
+
+<body>
+
+  <!-- Inicio de un artículo o sección -->
+  <article>
+    <!-- Una etiqueta <img> que muestra una imagen del desarrollador con una clase "img__article" -->
+    <img src="assets/img/developer.png" alt="" class="img__article">
+    <!-- Inicio de un contenedor con clase "data__container" -->
+    <div class="data__container">
+      <!-- Un encabezado de nivel 2 que indica que esta sección contiene datos básicos -->
+      <h2>Datos Básicos</h2>
+      <!-- Inicio de una lista no ordenada (unordered list) -->
+      <ul>
+        <!-- Un elemento de lista con el nombre del desarrollador, resaltado en negrita -->
+        <li><strong>Nombre:</strong> Facundo Ramos</li>
+        <!-- Un elemento de lista con la edad del desarrollador, resaltada en negrita -->
+        <li><strong>Edad:</strong> 23 años</li>
+        <!-- Un elemento de lista con el país del desarrollador, resaltado en negrita -->
+        <li><strong>País:</strong> Argentina</li>
+        <!-- Fin de la lista no ordenada -->
+      </ul>
+      <!-- Fin del contenedor de datos -->
+    </div>
+    <!-- Fin del primer artículo -->
+  </article>
+
+  <!-- Inicio de un segundo artículo con la clase "align__right" para alinear a la derecha -->
+  <article class="align__right">
+    <!-- Inicio de un contenedor con las clases "data__container" y "align__text__right" -->
+    <div class="data__container align__text__right">
+      <!-- Un encabezado de nivel 2 que indica que esta sección contiene intereses -->
+      <h2>Intereses</h2>
+      <!-- Inicio de una lista no ordenada (unordered list) -->
+      <ul>
+        <!-- Un elemento de lista que muestra un interés en Programación Web -->
+        <li>Programacion Web</li>
+        <!-- Un elemento de lista que muestra un interés en el juego de Ajedrez -->
+        <li>Ajedrez</li>
+        <!-- Un elemento de lista que muestra un interés en el espacio exterior -->
+        <li>Espacio</li>
+        <!-- Fin de la lista no ordenada -->
+      </ul>
+      <!-- Fin del contenedor de datos alineado a la derecha -->
+    </div>
+    <!-- Una etiqueta <video> que muestra un video con las clases "video__article" -->
+    <video class="video__article" autoplay loop muted>
+      <!-- Una etiqueta <source> que proporciona el origen y el tipo de archivo de video <!-- Agrega más etiquetas <source> con diferentes formatos de video para mayor compatibilidad -->
+      <source src="assets/video/world_optimize.mp4" type="video/mp4">
+      <!-- Un mensaje que se mostrará si el navegador no puede reproducir videos HTML5 -->
+      Tu navegador no soporta la reproducción de videos HTML5.
+      <!-- Fin del elemento de video -->
+    </video>
+    <!-- Fin del segundo artículo -->
+  </article>
+
+  <!-- Inicio de un tercer artículo -->
+  <article>
+    <!-- Inicio de un contenedor con la clase "data__container" -->
+    <div class="data__container">
+      <!-- Un encabezado de nivel 2 que indica que esta sección contiene experiencias -->
+      <h2>Experiencias</h2>
+      <!-- Un párrafo de texto -->
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur repellendus eligendi eum, nam praesentium
+        rem. Nemo dolor similique omnis libero maiores cumque impedit officia accusantium recusandae officiis ipsum
+        doloribus optio delectus eum repellendus, ullam numquam autem perferendis nisi. Optio nostrum voluptates
+        <!-- Texto de muestra (Lorem ipsum) utilizado como relleno -->
+        corrupti culpa ad, sapiente fugiat. Blanditiis libero cumque vitae?
+      </p>
+      <!-- Fin del contenedor de datos -->
+    </div>
+    <!-- Fin del tercer artículo -->
+  </article>
+
+  <!-- Inicio del contenedor del botón para poder centrarlo-->
+  <div class="button__container">
+    <!-- Enlace que representa el botón -->
+    <a href="assets/template/Responsive-resume/index.html" class="button">Resume</a>
+    <!-- Fin del contenedor del botón -->
+  </div>
+
+  <!-- Fin del cuerpo del documento HTML -->
+</body>
+<!-- Fin del documento HTML -->
+
+</html>
